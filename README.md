@@ -1,6 +1,7 @@
-# LiveSetMidiExporter v2
+所有代码为Codex编写，仅通过个人测试，不会进行维护。
+运行环境为Ableton Live 12.1.11 + Max 8.6.5
 
-为 Ableton Live 12.1.11 + Max 8.6.5 重写的 Max for Live MIDI 导出器。
+# 以下为Codex原README.md
 
 ## 功能
 
@@ -10,16 +11,10 @@
 - Take Lane 里的 MIDI clip 也会纳入导出
 - Session clip 会按轨道内 slot 顺序追加到该轨 Arrangement 内容之后
 
-## 文件
-
-- `LiveSetMidiExporter_v2.maxpat`
-- `LiveSetMidiExporter_v2.amxd`
-- `export_live_set_v2.js`
-
 ## 使用
 
 1. 保持这三个文件在同一个文件夹中
-2. 优先尝试把 `LiveSetMidiExporter_v2.amxd` 拖进 Live 的 MIDI track
+2. 优先尝试把 `MidiExport.amxd` 拖进 Live 的 MIDI track
 3. 如果你更想自己保存设备，就在 Max 中打开 `LiveSetMidiExporter_v2.maxpat`
 4. 点击设备上的 `Export MIDI`
 5. 选择输出路径，设备会生成多轨 `.mid`
